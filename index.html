@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css"
+      integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+   <form action="">
+      <label for="Username">UserName</label>
+      <input type="text" id="Username" name="name" placeholder="UserName" required><br>
+      <br>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <br>
+      <br>
+      <label for="Day">Appointment Date time</label>
+      <input type="datetime-local" id="Day" name="Day" required>
+      <br>
+      <br>
+      <label for="Range">Range</label>
+      <input type="range" id="Range" name="Range">
+      <br>
+      <br>
+      <label for="price">Choose your price</label>
+      <select name="Price" id="price">
+         <option value="Select your price">Select your Price</option>
+         <option value="100">100</option>
+         <option value="200">200</option>
+         <option value="300">300</option>
+         <option value="400">400</option>
+      </select>
+      <br><br>
+      <label for="comments">Comments</label>
+      <textarea name="comments" id="comments" rows="10" cols="60"></textarea>
+      <br><br>
+      <label for="Mens wear">Choose your Wear</label>
+      <input type="text" id="Mens wear" >
+      <datalist list="fashion">
+         <option  value="fashion">Shirts</option>
+         <option value="T-shirts">T-Shirts</option>
+         <option value="Polo shirts">Polo Shirts</option>
+      </datalist>
+       <button style="margin-left:80px;margin-top:30px" >submit</button>   
+
+   </form>
+</body>
+
+</html>
