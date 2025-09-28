@@ -1,45 +1,21 @@
-.square{
-   width:100px;
-   height:100px;
-   background-color:palegreen;
+.square {
+   width: 100px;
+   height: 100px;
+   background-color: palegreen;
    /* transition-duration:7s;
    transition-property:all;
    transition-timing-function:ease-in-out;
    transition-delay:8s; */
-  
-
+   transition: width 4s 2s linear;
+   margin-top: 150px;
+   margin-left: 160px;
 }
-.square:hover{
-   width:400px;
+
+.square:hover {
+   width: 500px;
    background-color: lightcoral;
    height: 400px;
-
+   transform: translate3d(200px);
+   margin-top: 50px;
+   margin-left: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
